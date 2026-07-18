@@ -6,7 +6,7 @@ const App = () => {
   return (
     <main>
       <Movies />
-      <MovieByTitle title="Gully Boy"/>
+      <MovieByTitle title="PK"/>
     </main>
   )
 }
