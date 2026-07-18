@@ -2,7 +2,7 @@ import useFetch from "../hooks/useFetch";
 
 const MovieByTitle = ({title}) =>{
    
-    const {data, loading, error} = useFetch(`https://bi-1-1-cw-frontend.vercel.app/${title}`);
+    const {data, loading, error} = useFetch(`https://vercel.com/gaurav-kurude/bi-1-1-cw-frontend/2qMxt6wBNQwMioJLUdF8bGvBn6bE${title}`);
     console.log(data);
 
     return (
