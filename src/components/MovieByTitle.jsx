@@ -2,7 +2,7 @@ import useFetch from "../hooks/useFetch";
 
 const MovieByTitle = ({title}) =>{
    
-    const {data, loading, error} = useFetch(`https://bi-1-1-cw-backend-zeta.vercel.app/${title}`);
+    const {data, loading, error} = useFetch(`https://bi-1-1-cw-backend-zeta.vercel.app/movies/${title}`);
     console.log(data);
 
     return (
