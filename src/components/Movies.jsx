@@ -1,7 +1,7 @@
 import useFetch from "../hooks/useFetch";
 
 const Movies = () =>{
-   const { data, loading , error } = useFetch("https://vercel.com/gaurav-kurude/bi-1-1-cw-frontend/2qMxt6wBNQwMioJLUdF8bGvBn6bE");
+   const { data, loading , error } = useFetch("https://bi-1-1-cw-backend-zeta.vercel.app/");
     console.log(data)
 
     return (
